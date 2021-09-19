@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pizzas SMN</string>
+    <string name="titulo_principal">Recetario de Pizzas</string>
+    <string name="hint_receta">Nombre de la receta</string>
+    <string name="ingr_carne">Carne</string>
+    <string name="ingr_pollo">Pollo</string>
+    <string name="ingr_mixto">Mixto</string>
+    <string name="txt_ingr_principal">Ingrediente Principal</string>
+    <string name="txt_ingre_base">Base de la Pizza</string>
+    <string name="ingr_base_roja">Roja</string>
+    <string name="ingr_base_blanca">Blanca</string>
+    <string name="boton_guardar">Guardar receta</string>
+    <string name="ingr_generales">Ingredientes de la Pizza</string>
+    <string name="ingr_generales_cebolla">Cebolla</string>
+    <string name="ingr_generales_champinon">Champiñon</string>
+    <string name="ingr_generales_morron">morron</string>
+    <string name="ingr_generales_tomate">tomate</string>
+    <string name="ingr_general_tomate_cherry">Tomate cherry</string>
+    <string name="ingr_general_palta">Palta</string>
+    <string name="ingr_alinios">Aliños</string>
+    <string name="ingr_alinio_ajo">Ajo</string>
+    <string name="ingr_alinio_albana">Albana</string>
+    <string name="ingre_alinio_oregano">Orégano</string>
+    <string name="menu_crear_receta">Crear receta</string>
+    <string name="menu_recetas_disponibles">Recetas disponibles</string>
+    <string name="txt_ingredientes_generales_cardview">Ingredientes generales</string>
+    <string name="txt_alinios_cardview">Aliños</string>
+    <string name="txt_no_ingrediente_cardview">Sin ingrediente</string>
+</resources>
