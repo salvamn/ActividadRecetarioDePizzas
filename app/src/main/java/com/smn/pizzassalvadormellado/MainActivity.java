@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
                     recetasDisponibles.listaPizzas.add(pizza);
 
                     Toast.makeText(MainActivity.this, "Receta creada con exito", Toast.LENGTH_LONG).show();
+
+                    reiniciarReceta();
                 }
 
             }
@@ -121,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // TODO: Modificar metodo precioPizza.
+    // DONE: Modificar metodo precioPizza.
     public int precioPizza(Pizza pizza){
         // Precio base de $500, ya que la base de la pizza independientemente de la opcion tiene un valor de $500 y es
         // una opcion obligatoria.
@@ -170,5 +172,23 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
         return true;
+    }
+
+    // DONE: Metodo que deseleccione los radiobutton y checkbox y limpie la caja de texto.
+    public void reiniciarReceta(){
+        nombreReceta.setText("");
+        rbtCarne.setChecked(false);
+        rbtPollo.setChecked(false);
+        rbtMixto.setChecked(false);
+        rbtRoja.setChecked(false);
+        rbtBlanca.setChecked(false);
+        chkCebolla.setChecked(false);
+        chkChampiniones.setChecked(false);
+        chkMorron.setChecked(false);
+        chkTomateCherry.setChecked(false);
+        chkPalta.setChecked(false);
+        chkAjo.setChecked(false);
+        chkAlbaca.setChecked(false);
+        chkOregano.setChecked(false);
     }
 }

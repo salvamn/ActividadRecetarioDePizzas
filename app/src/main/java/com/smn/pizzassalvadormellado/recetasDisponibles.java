@@ -29,6 +29,7 @@ public class recetasDisponibles extends AppCompatActivity {
         this.reclicerPizzas = findViewById(R.id.reciclerPizzas);
         this.reclicerPizzas.setLayoutManager(new LinearLayoutManager(recetasDisponibles.this));
 
+        /*
         listaPizzas.add(new Pizza(
                 "Pizza a lo pobre", "Carne", "Blanca", true,
                 false,false,false,false,false,false,false,
@@ -37,6 +38,7 @@ public class recetasDisponibles extends AppCompatActivity {
                 "Pizza a lo rico", "Mixto", "Blanca", true,
                 true,true,true,true,true,true,true,
                 true, 10000));
+         */
         reclicerPizzas.setAdapter(new PizzaAdapter(listaPizzas));
     }
 
